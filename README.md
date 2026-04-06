@@ -1,2 +1,2 @@
 # android_mediatek_ims
-MediaTek IMS hardware for the Techno Spark 9 Pro
+MediaTek IMS hardware for the Tecno Spark 9 Pro
