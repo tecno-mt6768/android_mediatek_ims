@@ -522,6 +522,13 @@ dex_import {
 }
 
 dex_import {
+	name: "mediatek-wfo-legacy",
+	owner: "mediatek",
+	jars: ["proprietary/framework/mediatek-wfo-legacy.jar"],
+	system_specific: true,
+}
+
+dex_import {
 	name: "mediatek-common",
 	owner: "mediatek",
 	jars: ["proprietary/framework/mediatek-common.jar"],

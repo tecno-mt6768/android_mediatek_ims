@@ -26,6 +26,7 @@ system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 -system/framework/mediatek-telecom-common.jar
 -system/framework/mediatek-telephony-base.jar
 -system/framework/mediatek-telephony-common.jar
+-system/framework/mediatek-wfo-legacy.jar
 -system/priv-app/ImsService/ImsService.apk
 
 # IMS (MtkGbaService) - from plato OS2.0.202.0.VLQMIXM
