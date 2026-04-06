@@ -515,6 +515,28 @@ android_app_import {
 }
 
 dex_import {
+	name: "mediatek-framework",
+	owner: "mediatek",
+	jars: ["proprietary/framework/mediatek-framework.jar"],
+	system_specific: true,
+}
+
+dex_import {
+	name: "mediatek-common",
+	owner: "mediatek",
+	jars: ["proprietary/framework/mediatek-common.jar"],
+	system_specific: true,
+}
+
+dex_import {
+	name: "mediatek-ims-legacy",
+	owner: "mediatek",
+	jars: ["proprietary/framework/mediatek-ims-legacy.jar"],
+	system_specific: true,
+}
+
+
+dex_import {
 	name: "mediatek-ims-base",
 	owner: "mediatek",
 	jars: ["proprietary/framework/mediatek-ims-base.jar"],
