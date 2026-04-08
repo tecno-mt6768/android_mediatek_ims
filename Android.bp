@@ -311,45 +311,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsink-mtk",
-    owner: "mediatek",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/libsink-mtk.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libcutils",
-                "libgui",
-                "libmedia",
-                "libstagefright",
-                "libstagefright_foundation",
-                "libui",
-                "libutils",
-                "libcomutils",
-                "libvcodec_cap",
-                "libvt_avsync",
-                "liblog",
-                "libmedia_omx",
-                "libaudioclient",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-                "libaudioclient_shim",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libsource",
     owner: "mediatek",
     strip: {
