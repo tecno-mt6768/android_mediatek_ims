@@ -86,7 +86,6 @@ cc_prebuilt_library_shared {
                 "libstagefright_foundation",
                 "libui",
                 "libutils",
-                "libsink-mtk",
                 "libsource",
                 "libvcodec_cap",
                 "libimsma_rtp",
