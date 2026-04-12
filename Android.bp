@@ -87,6 +87,7 @@ cc_prebuilt_library_shared {
                 "libui",
                 "libutils",
                 "libsource",
+                "libsink",
                 "libvcodec_cap",
                 "libimsma_rtp",
                 "libcomutils",
