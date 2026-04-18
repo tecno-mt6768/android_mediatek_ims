@@ -612,3 +612,14 @@ cc_prebuilt_binary {
     prefer: true,
     system_ext_specific: true,
 }
+
+
+// Разрешает поиск модулей в подпапках
+optional_subdirs = [
+    "rro_overlays/*",
+]
+
+// Если оверлеи лежат прямо в папках mtk-ims/ и mtk-ims-telephony/
+subdirs = [
+    "*" 
+]
