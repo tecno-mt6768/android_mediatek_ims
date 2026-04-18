@@ -228,7 +228,6 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
-                "libaudioclient_shim",
             ],
         },
     },
