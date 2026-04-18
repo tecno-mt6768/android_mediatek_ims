@@ -27,7 +27,7 @@ PRODUCT_PACKAGE += \
     libui_shim
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(IMS_VNDR_PATH)/overlay
+    $(IMS_VNDR_PATH)/rro_overlays
 
 # MTK IMS Overlays
 PRODUCT_PACKAGES += \
